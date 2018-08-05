@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<!-- HEY!!!!!!!!HEADS UP! I'm still figuring out buttons among a lot of things so this is not perfect. -G$-->
+
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>G$'s 1st Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css"/>
+    <script src="main.js"></script>
+    <style>
+        .float-img {
+            float: left;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            border: solid black 1px;
+            padding: 2px;
+                }
+        
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    resize: vertical;
+}
+.text-block {
+     position: absolute;
+    top: 50px;
+    left: 300px;
+    background-color:#4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+body {
+            background-image:url(./assets/images/escheresque_ste.png);
+        }
+
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: black;
+}
+            </style>
+</head>
+
+    <header>
+
+    <div class="text-block">
+            <h1>Giselle.Mudge</h1>
+    </div>
+        
+        <div class="wrapper">   
+        <nav>
+            <ul>
+                <li><a href="index.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+   
+    <section>   
+        <div class="about-me">
+                <h2 style="color:#4aaaa5; font-family: 'Times New Roman', Times, serif;font-size: 35px;">Portfolio</h2>
+                <hr>
+                <div class="row">
+
+                  <img src="./assets/images/avp2-ship02-500x208.jpg" alt="Hangman" style="height:100px; width:100px">
+                  <button class="btn" >Hangman</button>
+
+                        <img src="./assets/images/CountdownWall.jpg" alt="RPG" style="height:100px; width:100px">
+                        <button class="btn">RPG Game</button>
+                    </div>
+                    <div class="row">
+                      <img src="./assets/images/predator-5Camo.png" alt="Trivia" style="height:100px; width:100px">
+                      <button class="btn">Trivia Game</button>
+               
+                            <img src="./assets/images/TakeThat.jpg" alt="InfoWidget" style="height:100px; width:100px">
+                            <button class="btn">Rutgers Info Widget</button>
+                        </div>
+                        <div class="row">
+                  <img src="./assets/images/Thinking_Predator.jpg" alt="RPS" style="height:100px; width:100px">
+                  <button class="btn">Rock Paper Scissors</button> 
+                </div>
+                          
+        </div>
+    </section>
+
+    <footer class="footer"></footer>
+    
+</body>
+</html>
+
